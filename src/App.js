@@ -1,6 +1,5 @@
 import "./App.css";
 import Todo from "./components/Todo";
-// import Todo from "./components/testTodo";
 import Time from "./components/Time";
 
 function App() {
