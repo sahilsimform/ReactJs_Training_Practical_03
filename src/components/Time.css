@@ -3,9 +3,6 @@
   z-index: 100;
   padding-top: 30px;
   color: white;
-  /* border: 2px solid rgb(173, 36, 36);
-  background-color: rgba(175, 35, 35, 0.603);
-  color: #fff; */
   background: linear-gradient(
     90deg,
     rgba(255, 12, 223, 0.829) 0%,
@@ -15,8 +12,6 @@
   width: 55%;
   align-items: center;
   position: sticky;
-  /* top: 256px; */
-  /* display: flex; */
   border-radius: 10px;
   font-weight: bold;
 }

@@ -9,8 +9,6 @@
 .main_div {
   color: white;
   text-align: center;
-
-  /* border: 2px solid pink; */
 }
 
 .addItems {
@@ -18,13 +16,6 @@
 }
 
 .textArea {
-  /* width: 35%;
-  height: 50px;
-  border: 3px solid rgb(185, 50, 50);
-  outline: none;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  text-align: center; */
   padding: 14px 32px 14px 16px;
   border-radius: 4px 0 0 4px;
   border: 2px solid #5d0cff;
@@ -43,8 +34,6 @@
   margin-left: 3px;
   border: 2px solid rgba(93, 12, 255, 1);
   outline: none;
-  /* background-color: rgba(55, 70, 75, 0.664);
-  color: rgb(211, 47, 47); */
   text-align: center;
   margin-top: 1px;
   background: linear-gradient(
@@ -55,26 +44,19 @@
   color: #fff;
   text-transform: capitalize;
 }
+
 /* down */
 .showItems {
   margin-top: 10px;
   position: relative;
   top: 12px;
-  /* background-color: rgba(55, 70, 75, 0.664);
-  border: 3px solid rgb(185, 50, 50); */
   color: white;
   width: 45%;
 }
 
 .eachItem {
-  /* margin-top: 10px; */
-  /* margin: 2px solid red; */
-  /* padding-top: 3px;
-  background-color: rgba(55, 70, 75, 0.664);
-  border: 3px solid rgb(185, 50, 50); */
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   margin: 6px auto;
   color: #fff;
   background: linear-gradient(
@@ -82,7 +64,6 @@
     rgba(255, 118, 20, 0.596) 0%,
     rgb(255, 84, 17) 100%
   );
-
   padding: 16px;
   border-radius: 5px;
   width: 100%;
@@ -118,9 +99,7 @@
   border: 2px solid white;
   outline: none;
   background-color: rgba(55, 70, 75, 0.589);
-  /* color: rgb(211, 47, 47); */
   text-align: center;
-  /* margin-top: 10px; */
   color: white;
   border-radius: 15px 30px;
 }
@@ -131,20 +110,16 @@
   border: 2px solid white;
   outline: none;
   background-color: rgba(55, 70, 75, 0.664);
-  /* color: rgb(211, 47, 47); */
   text-align: center;
-  /* margin-top: 10px; */
   color: white;
   border-radius: 15px 30px;
 }
 
 .btnDone {
   width: 50%;
-  /* margin-left: 3px; */
   border: 3px solid rgb(185, 50, 50);
   outline: none;
   background-color: rgba(55, 70, 75, 0.664);
-  /* color: rgb(211, 47, 47); */
   color: white;
   text-align: center;
   margin-top: 10px;
@@ -162,8 +137,6 @@
   text-align: center;
   cursor: pointer;
   outline: none;
-  /* color: #fff;
-  background-color: #c71313; */
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
@@ -187,10 +160,7 @@
 }
 
 .Add_btn_main {
-  /* background-color: #db2b2b; */
   border: none;
-  /* color: white; */
-  /* padding: 20px; */
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -198,8 +168,6 @@
   width: 200px;
   height: 52px;
   margin: 4px 2px;
-  /* border-radius: 50%; */
-  /* border-radius: 15px 30px 45px; */
   border-radius: 15px 30px;
   background: linear-gradient(
     90deg,

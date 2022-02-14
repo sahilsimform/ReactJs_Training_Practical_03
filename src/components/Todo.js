@@ -79,12 +79,6 @@ function Todo() {
     }
   };
 
-  // let Done_Btn = {
-  //   background: "#888",
-  //   color: "#fff",
-  //   textDecoration: "lineThrough",
-  // };
-
   return (
     <>
       <div className="container ">
@@ -122,7 +116,9 @@ function Todo() {
                 {items.map((elem) => {
                   return (
                     <div className="eachItem" key={elem.id}>
-                      <h3>{elem.name}</h3>
+                      <div className="mt-2">
+                        <h3>{elem.name}</h3>
+                      </div>
                       <div className="float-right">
                         {/* <button className="btnDone">
                           <i
