@@ -10,10 +10,8 @@ body {
   text-transform: uppercase;
   position: sticky;
   justify-content: center;
-  /* left: 25%; */
 }
 
-/* Flickering animation */
 @keyframes flicker {
   0%,
   18%,

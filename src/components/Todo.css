@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.main_div {
+  color: white;
+  text-align: center;
+}
+
+.addItems {
+  position: relative;
+}
+
+.textArea {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 35%;
+  background: transparent;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btnAdd {
+  width: 10%;
+  height: 58px;
+  margin-left: 3px;
+  border: 2px solid rgba(93, 12, 255, 1);
+  outline: none;
+  text-align: center;
+  margin-top: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+
+/* down */
+.showItems {
+  margin-top: 10px;
+  position: relative;
+  top: 12px;
+  color: white;
+  width: 45%;
+}
+
+.eachItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px auto;
+  color: #fff;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 118, 20, 0.596) 0%,
+    rgb(255, 84, 17) 100%
+  );
+  padding: 16px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.eachItem:nth-child(4n + 1) {
+  background: linear-gradient(
+    90deg,
+    rgb(93, 12, 255) 0%,
+    rgba(154, 0, 250, 0.459) 100%
+  );
+}
+
+.eachItem:nth-child(4n + 2) {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 12, 243, 0.479) 0%,
+    rgb(250, 0, 133) 100%
+  );
+}
+
+.eachItem:nth-child(4n + 3) {
+  background: linear-gradient(
+    90deg,
+    rgb(20, 157, 255) 0%,
+    rgba(17, 120, 255, 0.438) 100%
+  );
+}
+
+.btnEdit {
+  width: 50%;
+  margin-right: 20;
+  border: 2px solid white;
+  outline: none;
+  background-color: rgba(55, 70, 75, 0.589);
+  text-align: center;
+  color: white;
+  border-radius: 15px 30px;
+}
+
+.btnDelete {
+  width: 50%;
+  margin-left: 30px;
+  border: 2px solid white;
+  outline: none;
+  background-color: rgba(55, 70, 75, 0.664);
+  text-align: center;
+  color: white;
+  border-radius: 15px 30px;
+}
+
+.btnDone {
+  width: 50%;
+  border: 3px solid rgb(185, 50, 50);
+  outline: none;
+  background-color: rgba(55, 70, 75, 0.664);
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 15px 30px;
+}
+/* //////////////////////////////////////////////////////////////// */
+.btnRe {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.btnRemAll {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgb(155, 0, 250) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.btnRemAll:hover {
+  background-color: rgb(93, 5, 148);
+}
+
+.btnRemAll:active {
+  background-color: rgb(141, 44, 201);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.Add_btn_main {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 35px;
+  width: 200px;
+  height: 52px;
+  margin: 4px 2px;
+  border-radius: 15px 30px;
+  background: linear-gradient(
+    90deg,
+    rgb(93, 12, 255) 0%,
+    rgb(154, 0, 250) 100%
+  );
+  color: #fff;
+}
