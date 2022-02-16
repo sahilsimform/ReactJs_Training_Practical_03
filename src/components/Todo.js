@@ -85,33 +85,6 @@ function Todo() {
         <div className="main_div">
           <div className="child_div">
             <div className="container">
-              <div className="addItems ">
-                {toggleBtn ? (
-                  <>
-                    <input
-                      type="text"
-                      className="textArea"
-                      placeholder="Add Items to Add to the Todo.."
-                      value={inputData}
-                      onChange={(e) => setInputData(e.target.value)}
-                      onKeyUp={handleKeyDown}
-                    />
-
-                    <button className="btnAdd" onClick={addItem}>
-                      <i className="fas fa-check add-btn" title="Update Item">
-                        Update/Add
-                      </i>
-                    </button>
-                  </>
-                ) : (
-                  <button
-                    onClick={() => setToggleBtn(true)}
-                    className="Add_btn_main"
-                  >
-                    +
-                  </button>
-                )}
-              </div>
               <div className="showItems container">
                 {items.map((elem) => {
                   return (
@@ -150,6 +123,33 @@ function Todo() {
                     </div>
                   );
                 })}
+              </div>
+              <div className="addItems mt-4">
+                {toggleBtn ? (
+                  <>
+                    <input
+                      type="text"
+                      className="textArea"
+                      placeholder="Add Items to Add to the Todo.."
+                      value={inputData}
+                      onChange={(e) => setInputData(e.target.value)}
+                      onKeyUp={handleKeyDown}
+                    />
+
+                    <button className="btnAdd" onClick={addItem}>
+                      <i className="fas fa-check add-btn" title="Update Item">
+                        Update/Add
+                      </i>
+                    </button>
+                  </>
+                ) : (
+                  <button
+                    onClick={() => setToggleBtn(true)}
+                    className="Add_btn_main"
+                  >
+                    +
+                  </button>
+                )}
               </div>
               <div className="btnRe">
                 <button className="btnRemAll" onClick={removeAll}>
